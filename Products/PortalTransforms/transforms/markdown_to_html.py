@@ -40,6 +40,7 @@ class markdown(object):
                                              'markdown.extensions.sane_lists',  
                                              'markdown.extensions.toc',  
                                              'markdown.extensions.admonition',  
+                                             'markdown.extensions.nl2br'
                                              ]) \
                 .encode('utf-8')
         else:
