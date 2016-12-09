@@ -43,12 +43,5 @@ setup(name='Products.PortalTransforms',
           'ZODB3',
           'Zope2',
           'Markdown>=2.6.5',
-          'markdown-icons',
-          'markdown_superscript_extension',
-          'markdown_subscript_extension',
-          'mdx_custom_span_class',
-          'figureAltCaption',
-          'plantuml-markdown',
-          
       ],
 )
