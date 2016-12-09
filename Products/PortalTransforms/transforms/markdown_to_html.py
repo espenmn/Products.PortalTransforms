@@ -38,13 +38,9 @@ class markdown(object):
             html = markdown_transformer \
                 .markdown(orig, extensions=['markdown.extensions.fenced_code',
                                              'markdown.extensions.extra',  
-                                             'markdown.extensions.codehilite',
                                              'markdown.extensions.sane_lists',  
                                              'markdown.extensions.toc',  
-                                             'markdown.extensions.abbr',
                                              'markdown.extensions.meta',
-                                             'markdown.extensions.def_list',
-                                             'markdown.extensions.headerid',
                                              'markdown.extensions.wikilinks',
                                              'markdown.extensions.admonition',  
                                              ]) \
