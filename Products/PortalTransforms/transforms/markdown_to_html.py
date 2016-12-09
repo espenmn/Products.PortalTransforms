@@ -36,12 +36,9 @@ class markdown(object):
             # PortalTransforms, however expects a string as result,
             # so we encode the unicode result back to UTF8:
             html = markdown_transformer \
-                .markdown(orig, extensions=['markdown.extensions.fenced_code',
-                                             'markdown.extensions.extra',  
+                .markdown(orig, extensions=['markdown.extensions.extra',  
                                              'markdown.extensions.sane_lists',  
                                              'markdown.extensions.toc',  
-                                             'markdown.extensions.meta',
-                                             'markdown.extensions.wikilinks',
                                              'markdown.extensions.admonition',  
                                              ]) \
                 .encode('utf-8')
